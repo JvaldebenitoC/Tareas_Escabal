@@ -27,7 +27,12 @@ li{
     border-radius: 10px;
     border-width: 1px;
     border-top: 2px;
-    border-color: #ccc;
+    border-color: #ccc; 
+}
+
+li:hover{
+    color: #946aac;
+    cursor: pointer;
 }
 
 article{
