@@ -1,0 +1,145 @@
+
+body{
+    margin: 0px;
+    background-color: #ebd8cdd9;
+    font-family: 'Architects Daughter', cursive;
+}
+
+button{
+    text-align: center;
+    transition-duration: 0.4s;
+    text-decoration: none;
+    padding: 10px 25px;
+    border-radius: 4px;
+}
+nav{
+    display: block;
+    width: 100%;
+}
+
+.page-nav{
+    position: relative;
+    
+}
+.page-nav h1{
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+    background-color: #bf307f8e;
+}
+
+/* .button-pay {
+    font-size: 16px;
+    background-color: #BFB093;
+    border: 2px solid #a7987b;
+    position: absolute;
+    right: 15px;
+    bottom: 15px;
+}
+
+.button-pay:hover {
+    background-color: #BF7969;
+    color: #1E2759;
+} */
+
+.menu-link-desktop{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+ul{
+    list-style: none;
+    margin: 0;
+    padding-left: 0;
+}
+
+.links-menu{
+    padding: 0 100px;
+    line-height: 120px;
+    display: block;
+    color: black;
+    transition: .4s all ease-in-out;
+    font-weight: bolder;
+    text-decoration: none;
+    font-size: 30px;
+}
+
+.page-content{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+
+}
+
+.info-desktop{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    text-align: left;
+    padding: 10px;
+    background-color: #bf307f8e;
+}
+
+hgroup{
+    margin-top: 50px;
+}
+
+.title{
+    font-size: 35px;
+}
+
+.description{
+    font-size: 25px;
+}
+
+.img-figure{
+    width: 450px;
+    margin: 1rem;
+}
+
+.product-container{
+    margin: 20px;
+    padding: 2px 50px;
+    position: relative;
+    background-color: #ebe6e4;
+    box-shadow: 0 4x 8px 0 rgba(0,0,0,0.1);
+}
+
+.product-container:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+}
+
+.product-container img{
+    margin-top: 20px;
+    width: 300px;
+    height: 450px;
+}
+
+.product-container h2{
+    margin-bottom: 10px;
+    margin-left: 12px;
+}
+
+.button-add {
+    font-size: 16px;
+    background-color: #ebe6e4;
+    border: 2px solid #BFB093;
+    position: absolute;
+    right: 15px;
+    bottom: 10px;
+}
+
+.button-add:hover {
+    background-color: #BFB093;
+    color: #1E2759;
+}
+
+.footer-content{
+    padding: 15px;
+    display: flex;
+    justify-content: center;
+    background-color: #bf307f8e;
+}
