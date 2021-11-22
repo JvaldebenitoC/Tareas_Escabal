@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarea Pokemon</title>
+    <link rel="stylesheet" href="css/poke.css">
+</head>
+<body>
+    <div id="container">
+        <label for="pokeName">Ingresa el nombre de tu pokemon: </label>
+        <input type="text" id="pokeName">
+        <button id="request-btn">Consulta</button>
+            <br />
+        <span id="loading-msg" class="hidden">... Buscando en la PokeDex</span>
+            <br />
+        <span id="error-message"></span>
+        <div id="pokemon-display-data" class="pokemon-card hidden">
+            <p>Solo tienes que atraparlos ya, atrapalos ya!</p>
+        </div>
+        <hr>
+        <h3>Historial</h3>
+            <ul id="historial">
+            </ul>
+        <hr>
+        <button id="clear-historial">Limpiar Historial</button>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
